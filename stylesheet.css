@@ -1,0 +1,154 @@
+@media print  {
+#header {
+border:4px double #000;
+}
+
+#navdiv {
+display:none;
+}
+}
+
+@media screen  {
+body {
+background:#000;
+color:#fff;
+}
+
+#content {
+background:#333;
+border:4px double #fff;
+margin:1em auto;
+padding:2em;
+width:70%;
+clear:both;
+}
+
+#header {
+background:#333;
+border:4px double #fff;
+color:#fff;
+}
+
+#nav li {
+display:block;
+float:left;
+margin:0;
+padding-right:5px;
+text-align:center;
+width:11em;
+}
+
+#nav li.off ul,#nav li.on ul {
+display:none;
+float:left;
+margin:0;
+position:relative;
+}
+
+#nav li a {
+border:1px solid #29497b;
+display:block;
+font-weight:700;
+margin:1em;
+}
+
+#nav li ul a
+{
+text-align:left;
+}
+
+#nav li.on a {
+border:1px solid #0f0;
+}
+
+#nav li.on ul a,#nav li.off ul a {
+border:0;
+color:#0f0;
+float:left;
+margin-right:5px;
+width:auto;
+}
+
+#nav li.on ul {
+display:block;
+}
+
+#nav li.off:hover ul,#nav li.over ul {
+display:block;
+z-index:6000;
+}
+
+#nav li.off a:hover,#nav li:hover a,#nav li.over a {
+background:#29497b;
+color:#0f0;
+}
+}
+
+a {
+text-decoration:none;
+color:#0f0;
+}
+
+a:visited{
+color:#0d0;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+blockquote p{
+line-height:1em;
+text-indent:0;
+}
+
+.biblio {
+margin-left:.5in;
+text-indent:-0.5in;
+}
+
+body {
+font-family:Constantia, Georgia, Times New Roman, Times, serif;
+font-size:1em;
+line-height:2em;
+}
+
+cite {
+font-style:normal;
+text-decoration:underline;
+}
+
+div.figure {
+float:right;
+width:20%;
+}
+
+div.figure p {
+font-size:smaller;
+line-height:1em;
+text-indent:0;
+}
+
+img.scaled {
+width:100%;
+}
+
+h1 {
+font-size:1.5em;
+}
+
+h2 {
+font-size:1.3em;
+}
+
+h3 {
+font-size:1.25em;
+}
+
+h4 {
+font-size:1.1em;
+}
+
+p {
+text-indent:0.5in;
+}
